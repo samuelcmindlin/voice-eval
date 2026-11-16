@@ -1,0 +1,23 @@
+# secrets: the real key lives in .env, and only the blank template is tracked
+.env
+.env.*
+!.env.example
+
+# environments and caches
+.venv/
+__pycache__/
+*.egg-info/
+.pytest_cache/
+
+# downloaded data and run outputs (large, and audio may not be redistributable)
+data/
+runs/
+
+# editor settings
+.vscode/
+
+# local planning notes, kept out of the repo
+private/
+
+# macOS
+.DS_Store
